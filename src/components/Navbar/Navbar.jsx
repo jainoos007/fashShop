@@ -106,7 +106,7 @@ const Navbar = () => {
             <a href="#" className="flex items-center gap-[2px] py-2">
               Trending Products
               <span>
-                <FaCaretDown className="transition-all duration-200 hover:rotate-180" />
+                <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
               </span>
             </a>
             <div className="absolute z-[9999] hidden group-hover:block w-[150px] rounded-md bg-white p-2 text-black shadow-md">
