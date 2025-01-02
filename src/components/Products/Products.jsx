@@ -54,9 +54,13 @@ const Products = () => {
       <div className="container">
         {/* Header section */}
         <div className="text-center mb-10 maz-w-[600px] mx-auto">
-          <p className="text-sm text-primary">Top Selling Products for you</p>
-          <h1 className="text-3xl font-bold">Products</h1>
-          <p className="text-xs text-gray-400">
+          <p data-aos="fade-up" className="text-sm text-primary">
+            Top Selling Products for you
+          </p>
+          <h1 data-aos="fade-up" className="text-3xl font-bold">
+            Products
+          </h1>
+          <p data-aos="fade-up" className="text-xs text-gray-400">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
             labore modi Sit asperiores modi!
           </p>
@@ -66,7 +70,12 @@ const Products = () => {
           <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5">
             {/* card section */}
             {ProductData.map((data) => (
-              <div key={data.id} className="space-y-3">
+              <div
+                data-aos="fade-up"
+                data-aos-elay={data.aosDelay}
+                key={data.id}
+                className="space-y-3"
+              >
                 <img
                   src={data.img}
                   alt=""
