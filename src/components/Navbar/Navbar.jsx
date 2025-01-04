@@ -4,7 +4,7 @@ import { IoMdSearch } from "react-icons/io";
 import { FaCaretDown, FaCartShopping } from "react-icons/fa6";
 import DarkMode from "./darkMode";
 
-const Navbar = () => {
+const Navbar = ({ handleOrderPopup }) => {
   const Menu = [
     {
       id: 1,
@@ -72,7 +72,7 @@ const Navbar = () => {
 
             {/* order button */}
             <button
-              onClick={() => alert("oreder not available yet")}
+              onClick={handleOrderPopup}
               className="bg-gradient-to-r from-primary to-secondary transition-all duration-200 text-white py-1 px-4 rounded-full flex items-center gap-3 group"
             >
               <span className="group-hover:block hidden transition-all duration-200">
@@ -89,7 +89,7 @@ const Navbar = () => {
         </div>
       </div>
       {/* lower nav bar */}
-      <div className="flex justify-center">
+      <div data-aos="zoom-in" className="flex justify-center">
         <ul className="sm:flex hidden items-center gap-4">
           {Menu.map((data) => (
             <li key={data.id}>
