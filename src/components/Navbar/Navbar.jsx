@@ -23,7 +23,7 @@ const Navbar = ({ handleOrderPopup }) => {
     },
     {
       id: 4,
-      name: "Mebs Wear",
+      name: "Mens Wear",
       link: "#",
     },
     {
@@ -44,7 +44,7 @@ const Navbar = ({ handleOrderPopup }) => {
       link: "#",
     },
     {
-      id: 1,
+      id: 3,
       name: "Top Rated",
       link: "#",
     },
@@ -109,7 +109,7 @@ const Navbar = ({ handleOrderPopup }) => {
                 <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
               </span>
             </a>
-            <div className="absolute z-[9999] hidden group-hover:block w-[150px] rounded-md bg-white p-2 text-black shadow-md">
+            <div className="absolute z-[9999] hidden group-hover:block w-[150px] rounded-md bg-white dark:bg-gray-900 p-2 text-black dark:text-white shadow-md">
               <ul>
                 {DropdownLinks.map((data) => (
                   <li key={data.id}>
