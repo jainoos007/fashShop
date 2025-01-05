@@ -29,6 +29,3 @@ https://serene-muffin-9fbb45.netlify.app/
 
 ## 📂
 
-🌐 Live Demo
-You can view the live demo of the project here:
-Live Demo on Netlify
