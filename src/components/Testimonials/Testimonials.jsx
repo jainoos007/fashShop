@@ -4,25 +4,25 @@ import Slider from "react-slick";
 const testimonialData = [
   {
     id: 1,
-    name: "victor",
+    name: "Sydney Sweeney",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid corporis fuga magnam temporibus praesentium eveniet.",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 2,
-    name: "satya Nadella",
+    name: "Ana de Armas",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid corporis fuga magnam temporibus praesentium eveniet.",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 3,
-    name: "Virat kohli",
+    name: "Shah Rukh Khan",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid corporis fuga magnam temporibus praesentium eveniet.",
     img: "https://picsum.photos/104/104",
   },
   {
     id: 4,
-    name: "Sachin Tendulkar",
+    name: "Samantha",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid corporis fuga magnam temporibus praesentium eveniet.",
     img: "https://picsum.photos/103/103",
   },
