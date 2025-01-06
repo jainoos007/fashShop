@@ -1,4 +1,4 @@
-# Jainoos007 FashShop 🛍️  
+# FashShop 🛍️  
 
 Welcome to **FashShop**, a modern and responsive fashion e-commerce website designed to provide an elegant shopping experience. Built using the latest web technologies, FashShop features a clean user interface, seamless navigation, and a variety of fashion items to explore.
 
