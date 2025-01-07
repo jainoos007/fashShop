@@ -24,8 +24,8 @@ const Subscribe = () => {
           <input
             data-aos="fade-up"
             type="text"
-            placeholder="Ente your enail"
-            className="w-full p-3"
+            placeholder="Enter your email"
+            className="w-full p-3 text-black dark:bg-gray-800 dark:text-white"
           />
         </div>
       </div>
